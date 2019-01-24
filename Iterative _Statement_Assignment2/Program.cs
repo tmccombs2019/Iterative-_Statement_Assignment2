@@ -32,11 +32,14 @@ namespace Iterative__Statement_Assignment2
 
                 int input_value = int.Parse(input);
 
+                Console.WriteLine("The integer value you entered is " + input_value);
+                      
+
                 // here is the For Loop
 
                 for (int i = 1; i <= input_value; i++) 
                     {
-                    Console.WriteLine("The value of the variable i in this iteration is" + i.ToString());
+                    Console.WriteLine("This is the current interger value in the loop " + i.ToString());
                     }
                 Console.WriteLine("Press any key to exit...");
 
